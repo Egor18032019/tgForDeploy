@@ -1,5 +1,6 @@
 const {Sequelize} = require('sequelize');
-
+//root:dSgIQTCzu6Qu
+//Egor
 module.exports = new Sequelize(
     'telega_bot',
     'root',
