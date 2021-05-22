@@ -1,14 +1,24 @@
 const {Sequelize} = require('sequelize');
-//root:dSgIQTCzu6Qu
-//Egor
-//ssh root@185.91.55.195
+// ssh-keygen
+//ssh root@79.141.68.82
+// 
+//root:aXuBWe5IIIeg
+//Susanne egor
+//
+// sudo apt update
+// sudo apt install git
+// sudo apt install nodejs
+// sudo apt install npm
+// npm i pm2 -g
+// pm2 start index.js
 module.exports = new Sequelize(
-    'telega_bot',
-    'root',
-    'root',
+    'tg_bot', // название бд
+    'root',//username
+    'root',//passsword
     {
-        host: '5.188.128.98',
+        host: '79.141.68.85',
         port: '6432',
         dialect: 'postgres'
     }
 )
+
