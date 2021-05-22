@@ -1,6 +1,7 @@
 const {Sequelize} = require('sequelize');
 //root:dSgIQTCzu6Qu
 //Egor
+//ssh root@185.91.55.195
 module.exports = new Sequelize(
     'telega_bot',
     'root',
