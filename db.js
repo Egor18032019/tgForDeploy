@@ -14,7 +14,7 @@ const {Sequelize} = require('sequelize');
 module.exports = new Sequelize(
     'tg_bot', // название бд
     'root',//username
-    'root',//passsword
+    'root',// passsword
     {
         host: '79.141.68.85',
         port: '6432',
