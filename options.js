@@ -52,7 +52,7 @@ module.exports = {
   },
   funOptions: {
     reply_markup: JSON.stringify({
-      inline_keyboard: [
+      keyboard: [
         [{
           text: 'Музыка',
           callback_data: 'musik'
@@ -107,11 +107,11 @@ module.exports = {
           callback_data: 'plan5' // данные для обработчика событий
         }],
         [{
-          text: 'кол-во занятых рабочих мест на 8 этаже',
-          callback_data: '8floor'
+          text: 'свободные р.м. на 8 этаже(old)',
+          callback_data: '8floorSpace'
         }, {
-          text: 'кол-во занятых р.м. на 9 этаже',
-          callback_data: '9floor'
+          text: 'свободные р.м. на 9 этаже(old)',
+          callback_data: '9floorSpace'
         }],
       ]
     })
