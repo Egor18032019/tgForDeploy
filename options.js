@@ -73,7 +73,7 @@ module.exports = {
         }],
         [{
           text: 'Телеграмм',
-          url: 'https://t.me/EgorPrishedko'
+          url: 'https://t.me/Egor_from_Ekaterinburg'
         }],
       ]
     })
